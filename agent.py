@@ -1,12 +1,12 @@
-import os
+import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
-from dotenv import load_dotenv
 
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# Retrieve API key securely from Streamlit secrets
+OPENAI_API_KEY = st.secrets["openai"]["api_key"]
 
-llm = ChatOpenAI(api_key=OPENAI_API_KEY,model="gpt-4", temperature=0.5)
+# Initialize the LLM
+llm = ChatOpenAI(api_key=OPENAI_API_KEY, model="gpt-4", temperature=0.5)
 
 class WaterIntakeAgent:
     def __init__(self):
