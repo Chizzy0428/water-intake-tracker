@@ -1,0 +1,31 @@
+# general utilities
+numpy>=1.24
+pandas>=2.0
+python-dotenv>=1.0
+
+# web / API / HTTP
+requests>=2.28
+fastapi>=0.95
+uvicorn[standard]>=0.23
+
+# database / ORM
+sqlalchemy>=2.0
+
+
+# AI / ML / Agents / LLMs
+openai>=0.27
+langchain>=0.0.297
+llama-index
+langchain_openai
+
+#Streamlit
+streamlit>=1.31.1
+
+
+pydantic
+
+
+
+
+
+
