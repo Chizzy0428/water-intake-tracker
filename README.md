@@ -18,10 +18,6 @@ Activity Logging: Error and event tracking handled through logger.py.
 
 Simple Architecture: 100% Python with no heavy dependencies, easy to understand and customize.
 
-
-
-
-
 Project Structure
 
 water-intake-tracker/
