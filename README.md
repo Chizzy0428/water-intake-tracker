@@ -1,13 +1,12 @@
-
-🥤 Water Intake Tracker
+ Water Intake Tracker
 
 A simple and efficient Python-based application for tracking daily water consumption.
 This project helps users build healthier hydration habits by logging their water intake, storing the data, and retrieving historical usage records.
 
 
----
 
-📌 Features
+
+ Features
 
 Log Water Intake: Record the amount of water consumed at any time.
 
@@ -21,9 +20,9 @@ Simple Architecture: 100% Python with no heavy dependencies, easy to understand 
 
 
 
----
 
-📁 Project Structure
+
+Project Structure
 
 water-intake-tracker/
 │
@@ -36,9 +35,9 @@ water-intake-tracker/
 └── requirements.txt      # Project dependencies
 
 
----
 
-🚀 Getting Started
+
+Getting Started
 
 1. Clone the Repository
 
@@ -62,9 +61,8 @@ python agent.py
 or use functions inside api.py directly.
 
 
----
 
-🗄️ How It Works
+ How It Works
 
 1. User logs water intake (e.g., 250ml, 500ml).
 
@@ -80,39 +78,39 @@ or use functions inside api.py directly.
 
 
 
----
 
-🧩 Possible Improvements (Roadmap)
+
+ Possible Improvements (Roadmap)
 
 Future upgrades you can add:
 
-🌐 Add a Streamlit or web dashboard for visualizing daily/weekly hydration trends.
+Reminder notifications to encourage consistent drinking habits.
 
-🔔 Reminder notifications to encourage consistent drinking habits.
+Daily water goal + progress tracking.
 
-🎯 Daily water goal + progress tracking.
+Analytics: averages, streaks, and monthly summaries.
 
-📊 Analytics: averages, streaks, and monthly summaries.
+Multi-user support for shared installations.
 
-👤 Multi-user support for shared installations.
+Export logs to CSV/Excel.
 
-📤 Export logs to CSV/Excel.
+Move to cloud database if scaling beyond local use.
 
-☁️ Move to cloud database if scaling beyond local use.
+Try the app:https://water-intake-tracker-xnedwedqxnyrirkwq95cct.streamlit.app/
 
 
 
----
 
-🤝 Contributing
+
+ Contributing
 
 Contributions are welcome!
 Feel free to open issues or submit pull requests to enhance features, improve efficiency, or expand functionality.
 
 
----
 
-📜 License
+
+ License
 
 This project is released under the MIT License.
 You are free to modify and use it in your code.
