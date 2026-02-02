@@ -20,8 +20,8 @@ Simple Architecture: 100% Python with no heavy dependencies, easy to understand 
 
 Project Structure
 
-water-intake-tracker/
-│
+water-intake-tracker
+
 ├── app.py                # Main application entry point
 ├── api.py                # API functions or endpoints for interacting with the tracker
 ├── agent.py              # Automation/CLI agent for handling repeated tasks
